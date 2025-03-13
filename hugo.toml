@@ -3,3 +3,19 @@ languageCode = 'en-us'
 title = 'Clover Notes'
 
 theme = "paper"
+
+[services]
+
+[services.rss]
+limit = -1
+
+[outputs]
+blogs = ["html", "rss"]
+portfolio = ["html"]
+home = ["html"]
+
+[params]
+subtitle = "Probably the best website on the planet that was promised to Jews."
+[params.contact]
+email = "ali.hussain.abid.246@outlook.com"
+phone = "You really thing I'll put my number on the Internet 😒"
