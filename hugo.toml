@@ -2,7 +2,7 @@ baseURL = 'https://clovernotes.co/'
 languageCode = 'en-us'
 title = 'Clover Notes'
 
-theme = "paper"
+theme = "charlolamode"
 
 [services]
 

@@ -3,4 +3,4 @@
 	url = https://github.com/nanxiaobei/hugo-paper
 [submodule "themes/charlolamode"]
 	path = themes/charlolamode
-	url = https://github.com/charlola/hugo-theme-charlolamode
+	url = https://github.com/charlola/hugo-theme-charlolamode.git
