@@ -1,7 +1,7 @@
 +++
-date = '2025-03-13T09:16:15-07:00'
+date = 2025-03-13
 draft = false
-title = 'Portfolio'
+title = "Portfolio"
 +++
 ## ALI HUSSAIN ABID
 contact: [ali.hussain.abid.246@outlook.com](mailto:ali.hussain.abid.246@outlook.com)
