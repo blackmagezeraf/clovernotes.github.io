@@ -24,29 +24,29 @@ tabWidth = 4
 wrapperClass = 'highlight'
 
 [params]
-	# color style
-	color = 'wheat'                            # linen, wheat, gray, light
+# color style
+color = 'wheat'                            # linen, wheat, gray, light
 
-	# header social icons
-	github = 'blackmagezeraf'                 # github.com/YOUR_GITHUB_ID
-	rss = true                                # show rss icon
+# header social icons
+github = 'blackmagezeraf'                 # github.com/YOUR_GITHUB_ID
+rss = true                                # show rss icon
 
-	# home page profile
-	avatar = 'blackwizardzeraf@gmail.com'     # gravatar email or image url
-	name = 'Ali Hussain Abid'
-	bio = 'Game Designer, Developer, and Writer'
+# home page profile
+avatar = 'blackwizardzeraf@gmail.com'     # gravatar email or image url
+name = 'Ali Hussain Abid'
+bio = 'Game Designer, Developer, and Writer'
 
-	# misc
-	disableHLJS = false                       # disable highlight.js
-	disablePostNavigation = true             # disable post navigation
-	monoDarkIcon = false                       # show monochrome dark mode icon
-	math = true                               # enable KaTeX math typesetting globally
-	localKatex = false                        # use local KaTeX js/css instead of CDN
-	favicon = "favicon.ico"                   # customize the default favicon
-	appleTouchIcon = "apple-touch-icon.png"   # customize the default Apple touch icon
+# misc
+disableHLJS = false                       # disable highlight.js
+disablePostNavigation = true             # disable post navigation
+monoDarkIcon = false                       # show monochrome dark mode icon
+math = true                               # enable KaTeX math typesetting globally
+localKatex = false                        # use local KaTeX js/css instead of CDN
+favicon = "favicon.ico"                   # customize the default favicon
+appleTouchIcon = "apple-touch-icon.png"   # customize the default Apple touch icon
 
-	# RTL supprot
-	direction = "ltr"                         # RTL support for Right-to-left languages
+# RTL supprot
+direction = "ltr"                         # RTL support for Right-to-left languages
 
 [build]
-buildStats.enable = true
+buildStats.enable = false
