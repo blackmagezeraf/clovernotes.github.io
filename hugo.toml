@@ -1,10 +1,12 @@
 baseURL = 'https://clovernotes.co/'
 languageCode = 'en-us'
 title = 'Clover Notes'
-
+copyright = "© 2025, Clover Notes"
 theme = "paper"
 
-tags = ['Game Design', 'Game Development', 'Writing']
+[taxonomies]
+platform = "platforms"
+tool = "tools"
 
 menus.main = [
 	{ Identifier = "Home", Name = "Home", Weight = 10, URL = "/" },
@@ -13,9 +15,15 @@ menus.main = [
 	{ Identifier = "Portfolio", Name = "Portfolio", Weight = 40, URL = "/portfolio/" }
 ]
 
+[markup.goldmark.renderer]
+unsafe = true
+[markup.highlight]
+lineNos = true
+
+
 [params]
 	# color style
-	color = 'gray'                            # linen, wheat, gray, light
+	color = 'wheat'                            # linen, wheat, gray, light
 
 	# header social icons
 	github = 'blackmagezeraf'                 # github.com/YOUR_GITHUB_ID
