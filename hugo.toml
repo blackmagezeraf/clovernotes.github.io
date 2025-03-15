@@ -4,21 +4,26 @@ title = 'Clover Notes'
 copyright = "© 2025, Clover Notes"
 theme = "paper"
 
-[taxonomies]
-platform = "platforms"
-tool = "tools"
-
 menus.main = [
-	{ Identifier = "Home", Name = "Home", Weight = 10, URL = "/" },
 	{ Identifier = "Blogs", Name = "Blogs", Weight = 20, URL = "/blogs/" },
 	{ Identifier = "Anime Reviews", Name = "Anime Reviews", Weight = 30, URL = "/animereviews/" },
 	{ Identifier = "Portfolio", Name = "Portfolio", Weight = 40, URL = "/portfolio/" }
 ]
 
-[markup.goldmark.renderer]
-unsafe = true
+[markup]
 [markup.highlight]
-lineNos = true
+anchorLineNos = false
+codeFences = true
+guessSyntax = false
+hl_inline = false
+lineAnchors = ''
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+style = 'monokai'
+tabWidth = 4
+wrapperClass = 'highlight'
 
 
 [params]
@@ -37,7 +42,7 @@ lineNos = true
 	# misc
 	disableHLJS = false                       # disable highlight.js
 	disablePostNavigation = true             # disable post navigation
-	monoDarkIcon = true                       # show monochrome dark mode icon
+	monoDarkIcon = false                       # show monochrome dark mode icon
 	math = true                               # enable KaTeX math typesetting globally
 	localKatex = false                        # use local KaTeX js/css instead of CDN
 	favicon = "favicon.ico"                   # customize the default favicon
@@ -45,3 +50,6 @@ lineNos = true
 
 	# RTL supprot
 	direction = "ltr"                         # RTL support for Right-to-left languages
+
+[build]
+buildStats.enable = true
