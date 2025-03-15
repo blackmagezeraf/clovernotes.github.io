@@ -4,7 +4,11 @@ title = 'Clover Notes'
 
 theme = "charlolamode"
 
-[services]
+menu.main = [
+	{ name = "Anime Reviews", url = "/animereviews" },
+	{ name = "Blogs", url = "/blogs" },
+	{ name = "Portfolio", url = "/portfolio"}
+]
 
 [services.rss]
 limit = -1
@@ -16,6 +20,12 @@ home = ["html"]
 
 [params]
 subtitle = "Probably the best website on the planet that was promised to Jews."
+defaultTheme = "dark"
+ShowShareButtons = true
+sShowBreadCrumbs = false
+
+profileMode.enabled = false
+
 [params.contact]
 email = "ali.hussain.abid.246@outlook.com"
 phone = "You really thing I'll put my number on the Internet 😒"
