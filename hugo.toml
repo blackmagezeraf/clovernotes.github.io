@@ -11,7 +11,6 @@ menus.main = [
 ]
 
 [markup]
-[markup.highlight]
 anchorLineNos = false
 codeFences = true
 guessSyntax = false
