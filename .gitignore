@@ -1,4 +1,4 @@
 public/
 isbaleFastRender/
 
-*.lock
+*lock.json
