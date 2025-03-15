@@ -22,9 +22,10 @@ home = ["html"]
 subtitle = "Probably the best website on the planet that was promised to Jews."
 defaultTheme = "dark"
 ShowShareButtons = true
-sShowBreadCrumbs = false
+ShowBreadCrumbs = false
 
 profileMode.enabled = false
+disableThemeToggle = true
 
 [params.contact]
 email = "ali.hussain.abid.246@outlook.com"
