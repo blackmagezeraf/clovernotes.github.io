@@ -1,6 +1,6 @@
-baseURL = 'https://clovernotes.co/'
-languageCode = 'en-us'
-title = 'Clover Notes'
+baseURL = "https://clovernotes.co/"
+languageCode = "en-us"
+title = "Clover Notes"
 copyright = "© 2025, Clover Notes"
 theme = "paper"
 
@@ -14,36 +14,36 @@ menus.main = [
 anchorLineNos = false
 codeFences = true
 guessSyntax = false
-lineAnchors = ''
+lineAnchors = ""
 lineNoStart = 1
 lineNos = false
 lineNumbersInTable = true
 noClasses = true
-style = 'monokai'
+style = "monokai"
 tabWidth = 4
-wrapperClass = 'highlight'
+wrapperClass = "highlight"
 
 [params]
 # color style
-color = 'wheat'                            # linen, wheat, gray, light
+color = "wheat"
 
 # header social icons
-github = 'blackmagezeraf'                 # github.com/YOUR_GITHUB_ID
-rss = true                                # show rss icon
+github = "blackmagezeraf"
+rss = true
 
 # home page profile
-avatar = 'blackwizardzeraf@gmail.com'     # gravatar email or image url
-name = 'Ali Hussain Abid'
-bio = 'Game Designer, Developer, and Writer'
+avatar = "blackwizardzeraf@gmail.com"
+name = "Ali Hussain Abid"
+bio = "Game Designer, Developer, and Writer"
 
 # misc
-disableHLJS = false                       # disable highlight.js
-disablePostNavigation = true             # disable post navigation
-monoDarkIcon = false                       # show monochrome dark mode icon
-math = true                               # enable KaTeX math typesetting globally
-localKatex = false                        # use local KaTeX js/css instead of CDN
-favicon = "favicon.ico"                   # customize the default favicon
-appleTouchIcon = "apple-touch-icon.png"   # customize the default Apple touch icon
+disableHLJS = false
+disablePostNavigation = true
+monoDarkIcon = false
+math = true
+localKatex = false
+favicon = "favicon.ico"
+appleTouchIcon = "apple-touch-icon.png"
 
 # RTL supprot
 direction = "ltr"                         # RTL support for Right-to-left languages
