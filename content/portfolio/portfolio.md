@@ -1,7 +1,14 @@
 +++
-date = 2025-03-13
-draft = false
 title = "Portfolio"
+author = "Ali Hussain Abid"
+
+date = 2025-01-01
+draft = false
+
+[taxonomies]
+tools = ["portfolio", "resume"]
+platform = ["windows"]
+year = [2025]
 +++
 # ALI HUSSAIN ABID
 contact: [ali.hussain.abid.246@outlook.com](mailto:ali.hussain.abid.246@outlook.com)
