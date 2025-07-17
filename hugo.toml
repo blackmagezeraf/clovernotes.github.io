@@ -5,9 +5,9 @@ copyright = "© 2025, Clover Notes"
 theme = "paper"
 
 menus.main = [
-	{ Identifier = "Blogs", Name = "Blogs", Weight = 20, URL = "/blogs/" },
-	{ Identifier = "Anime Reviews", Name = "Anime Reviews", Weight = 30, URL = "/animereviews/" },
-	{ Identifier = "Portfolio", Name = "Portfolio", Weight = 40, URL = "/portfolio/" }
+	{ Identifier = "Blogs", Name = "Blogs", Weight = 10, URL = "/blogs/" },
+	{ Identifier = "Anime Reviews", Name = "Anime Reviews", Weight = 11, URL = "/animereviews/" },
+	{ Identifier = "Portfolio", Name = "Portfolio", Weight = 12, URL = "/portfolio/" }
 ]
 
 [markup]

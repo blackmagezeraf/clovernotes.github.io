@@ -1,3 +1,3 @@
 # I am working on WINDOWS and hence the following instructions are for windows.
 1. Run following command in your powershell: ```winget install -s winget Hugo.Hugo.Extended```
-2. cd to the project directory and run ```hugo server --buildDrafts --noHTTPSCASHE --disableFastRender -w --renderToMemory``` this will run the porject with drafts visible and loading the project in the RAM instead of loading the project from DISK while ensuring that site cache is always refreshed each time you make changes. It will also watch the changes.
+2. cd to the project directory and run ```hugo server --buildDrafts --noHTTPCache --disableFastRender -w --renderToMemory``` this will run the porject with drafts visible and loading the project in the RAM instead of loading the project from DISK while ensuring that site cache is always refreshed each time you make changes. It will also watch the changes.
